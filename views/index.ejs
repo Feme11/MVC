@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MVC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <form action="/users" method="POST" >
+      <h1 class="font-weight-bold text-center">Crea una cuenta</h1>
+      <div class="form-row pb-3">
+        <div class="col">
+          <label for="nombre_usuario">Nombre</label>
+          <input type="text" class="form-control" name="nombre" id="nombre_usuario" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="col">
+          <label for="apellido_usuario">Apellido</label>
+          <input type="text" class="form-control" name="apellido" id="apellido_usuario" placeholder="Ingresa tu apellido">
+        </div>
+      </div>
+      <div class="form-row pb-3">
+        <label for="correo_usuario">Email</label>
+        <input type="email" class="form-control" name="correo" id="correo_usuario" placeholder="Ingresa tu email">
+      </div>
+      <div class="form-row pb-3">
+        <div class="col">
+          <label for="nacimiento_usuario">Fecha de nacimiento</label>
+          <input type="date" class="form-control" name="fecha" id="nacimiento_usuario">
+        </div>
+        <div class="col">
+          <label for="contrasena_usuario">Contraseña</label>
+          <input type="password" class="form-control" name="contrasena" id="contrasena_usuario" placeholder="Ingresa tu contraseña">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-danger">Registrarte</button>
+    </form>
+  </body>
+</html>
