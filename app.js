@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 //Import the mongoose module
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'); 
 //Set up default mongoose connection
 var mongoDB = (process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/test');
 console.log('Connecting to database...');

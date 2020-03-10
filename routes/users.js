@@ -7,4 +7,11 @@ router.post('/', function(req, res, next) {
   userController.user_create(req, res, next);
 });
 
+/*  Post user  */
+router.get('/', function(req, res, next) {
+  userController.all_users(req, res, next);
+});
+
+
+
 module.exports = router;
