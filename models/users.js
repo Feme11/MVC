@@ -8,7 +8,7 @@ var userSchema = Schema({
     nombre        : { type : String, default: '', required: true },
     apellido      : { type : String, default: '', required: true },
     correo        : { type : String, default: '', required: true },
-    fecha         : { type : Date,   default: '', required: true },
+    RUT         : { type : Number,   default: '', required: true },
     contrasena    : { type : String, default: '', required: true },
     created_at    : { type : Date,   default: Date.now },
     updated_at    : { type : Date,   default: Date.now },

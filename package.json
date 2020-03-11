@@ -22,5 +22,14 @@
   "main": "app.js",
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feme11/MVC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Feme11/MVC/issues"
+  },
+  "homepage": "https://github.com/Feme11/MVC#readme",
   "description": ""
 }
